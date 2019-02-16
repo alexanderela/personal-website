@@ -1,3 +1,8 @@
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/alexanderela/personal-website.svg?columns=all)](https://waffle.io/alexanderela/personal-website)
+
+
+
+
 # PersonalWebsite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
