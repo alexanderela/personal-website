@@ -1,0 +1,52 @@
+.site-header {
+	background: yellow;
+	width: 100%;
+}
+
+.site-header, h3 {
+	margin: 0;
+}
+
+.site-header-image {
+	background-size: cover;
+	background-image: url('../assets/alexanderela-site-header-image.jpeg');
+	border-radius: 50%;
+	height: 10rem;
+	width: 10rem;
+}
+
+.site-header-nav {
+	background: magenta;
+	height: 5rem;
+	width: 100%;
+}
+
+.page-bottom-half {
+	background: orange;
+	display: grid;
+	grid-template-columns: 12rem 1fr;
+	height: 100vh;
+	width: 100%;	
+}
+
+.sidebar-nav {
+	background: grey;
+	height: 100vh;
+	/*width: 20rem;*/
+}
+
+.main-content {
+	background: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
