@@ -7,9 +7,11 @@ button {
 }
 
 .site-header {
-	background: yellow;
-	display: flex;
 	align-items: center;
+	background: #FFF;
+	border-bottom: 1px solid #000;
+	display: flex;
+	padding: 1rem;
 }
 
 .site-header-name-image-container {
@@ -27,13 +29,25 @@ button {
 	background-size: cover;
 	background-image: url('../assets/alexanderela-site-header-image.jpeg');
 	border-radius: 50%;
-	height: 10rem;
-	width: 10rem;
+	height: 8rem;
+	width: 8rem;
+}
+
+.site-header-name {
+	color: #0D2C54;
+	/*color: #1E2019;*/
+	font-size: 1.25rem;
+}
+
+.site-header-title {
+	font-size: 1rem;
+	color: #515050;
 }
 
 .site-header-nav {
 	align-items: center;
-	background: magenta;
+	background: #FFF;
+	/*border: 1px solid #000;*/
 	display: flex;
 	justify-content: space-evenly;
 	height: 100%;
@@ -50,34 +64,104 @@ button {
 
 .sidebar-nav {
 	align-items: flex-start;
-	background: grey;
+	background: #FFF;
+	border-right: 1px solid #000;
 	display: flex;
 	height: 100vh;
 	justify-content: center;
 }
 
+.nav-link {
+	color: #515050;	
+	font-size: 1.25rem;
+	font-weight: 800;
+}
+
+.resume {
+	color: #F6511D;
+	/*color: #393E41;*/
+}
+
+.github {
+	color: #FFB400;
+	/*color: #D3D0CB;*/
+}
+
+.linkedin {
+	color: #00A6ED;
+	/*color: #E2C044;*/
+}
+
+.email {
+	color: #7FB800;
+	/*color: #587B7F;*/
+}
+
 .sidebar-nav-button-container {
+	align-items: center;
 	display: flex;
 	flex-direction: column;
-  height: 8rem;
+  height: 10rem;
 	justify-content: space-between;
 	margin: 3rem 0 0;
-	width: 50%;
+	width: 60%;
 }
 
 .sidebar-nav-button {
+	color: #0D2C54;
+	font-size: 1.25rem;
+}
+
+.far, .fab, .fas {
+	/*margin: 0 1rem;*/
+	margin: 0 0.5rem 0 0;
+}
+
+.nav-about {
+	color: #F6511D;
+}
+
+.nav-skills {
+	color: #FFB400;
+}
+
+.nav-portfolio {
+	color: #00A6ED;
+}
+
+/*.sidebar-nav-button {
 	background: #FFF;
 	border: 1px solid #000;
-	height: 2rem;
+	border-radius: 3px;
+	font-size: 1rem;
+	height: 2.5rem;
 	width: 100%;
-}
+}*/
 
 .main-content {
-	background: pink;
+	background: #d4d1d1;
 }
 
+.footer {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+}
 
+.footer-break {
+	border-width: 0;
+	width: 80%;
+  border-top: 1px solid #E1E1E1;
+  margin: 1rem 0 0.5rem;
+/*  margin-top: 14px;
+  margin-bottom: 7px;*/
+}
 
+.footer-content {
+	color: #a9a8a8;
+	margin: 1rem 0 1.5rem;
+}
 
 
 
