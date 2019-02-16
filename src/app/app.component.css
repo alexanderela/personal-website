@@ -1,6 +1,18 @@
+a {
+	cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+}
+
 .site-header {
 	background: yellow;
-	width: 100%;
+	display: flex;
+}
+
+.site-header-name-image-container {
+
 }
 
 .site-header, h3 {
@@ -16,8 +28,11 @@
 }
 
 .site-header-nav {
+	align-items: center;
 	background: magenta;
-	height: 5rem;
+	display: flex;
+	justify-content: space-evenly;
+	height: 100%;
 	width: 100%;
 }
 
@@ -30,9 +45,27 @@
 }
 
 .sidebar-nav {
+	align-items: flex-start;
 	background: grey;
+	display: flex;
 	height: 100vh;
-	/*width: 20rem;*/
+	justify-content: center;
+}
+
+.sidebar-nav-button-container {
+	display: flex;
+	flex-direction: column;
+  height: 8rem;
+	justify-content: space-between;
+	margin: 3rem 0 0;
+	width: 50%;
+}
+
+.sidebar-nav-button {
+	background: #FFF;
+	border: 1px solid #000;
+	height: 2rem;
+	width: 100%;
 }
 
 .main-content {
