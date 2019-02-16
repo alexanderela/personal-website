@@ -9,10 +9,14 @@ button {
 .site-header {
 	background: yellow;
 	display: flex;
+	align-items: center;
 }
 
 .site-header-name-image-container {
-
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 20rem;
 }
 
 .site-header, h3 {
