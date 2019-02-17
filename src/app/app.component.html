@@ -31,20 +31,27 @@
 <section class='page-bottom-half'>
   <nav class='sidebar-nav'>
     <div class='sidebar-nav-button-container'>
-      <a class='sidebar-nav-button'>
+      <a class='sidebar-nav-button'
+         routerLink='/about'>
         <i class="fas fa-chevron-right nav-about"></i>About
       </a>
-      <a class='sidebar-nav-button'>
+      <a class='sidebar-nav-button'
+         routerLink='/skills'>
         <i class="fas fa-chevron-right nav-skills"></i>Skills
       </a>
-      <a class='sidebar-nav-button'>
+      <a class='sidebar-nav-button'
+         routerLink='portfolio'>
         <i class="fas fa-chevron-right nav-portfolio"></i>Portfolio
       </a>
     </div>
   </nav>
+
   <section class='main-content'>
+    <router-outlet></router-outlet>
   </section>
+
 </section>
+
 <section class='footer'>
   <hr class='footer-break'>
   <p class='footer-content'>©2019 alexanderela.com</p>

@@ -60,13 +60,12 @@ a:hover {
 	display: flex;
 	justify-content: space-evenly;
 	height: 100%;
-	width: 80%;
+	width: 50%;
 }
 
 .page-bottom-half {
-	background: orange;
 	display: grid;
-	grid-template-columns: 12rem 1fr;
+	grid-template-columns: 14rem 1fr;
 	height: 100vh;
 	width: 100%;	
 }
@@ -148,7 +147,8 @@ a:hover {
 }*/
 
 .main-content {
-	background: #d4d1d1;
+	/*background: #d4d1d1;*/
+	margin: 0 5rem 0 0;
 }
 
 .footer {
