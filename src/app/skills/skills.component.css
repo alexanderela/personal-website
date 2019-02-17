@@ -52,7 +52,30 @@ td {
 }
 
 .skills-icon {
-	background-image: url('../../assets/alexanderela-site-header-image.jpeg');
+	height: 3rem;
+	width: 3rem;
+	background-size: cover;
+}
+
+.html {
+	background-image: url('../../assets/front_end/html.png');
+	/*border: 0;*/
 	height: 3rem;
 	width: 3rem;
 }
+
+.css {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
