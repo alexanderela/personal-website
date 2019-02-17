@@ -8,11 +8,15 @@
 	align-items: center;
 	display: flex;
 	flex-direction: column;
+  font-size: 1.05rem;
 	justify-content: center;
 	margin: 2rem 15rem 0 5rem;
-  font-size: 1.05rem;
 }
 
 .About-summary-paragraph {
 	margin: 0 0 1rem;
+}
+
+.paragraph-3 {
+	font-weight: 700;	
 }
