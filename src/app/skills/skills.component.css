@@ -1,0 +1,56 @@
+.Skills {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 10rem);
+	grid-gap: 1rem;
+}
+
+table {
+	/*border-top: 1px solid black;*/
+	/*border-right: 1px solid black;*/
+	/*border-left: 1px solid black;*/
+	/*display: flex;*/
+	/*justify-content: center;*/
+	/*width: 20rem;*/
+}
+
+thead {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 3rem;
+	font-size: 1.25rem;
+	padding: 0.5rem 0;
+	/*border-bottom: 1px solid black;	*/
+}
+
+tr {
+	display: flex;
+	/*border-bottom: 1px solid black;*/
+}
+
+.tbody-row {
+
+}
+
+td {
+	display: flex;
+	align-items: center;
+	height: 4rem;
+	justify-content: center;
+	/*border-right: 1px solid black;*/
+	/*border-left: 1px solid black;*/
+}
+
+.td-name {
+	width: 6rem;
+}
+
+.td-image {
+	width: 4rem;	
+}
+
+.skills-icon {
+	background-image: url('../../assets/alexanderela-site-header-image.jpeg');
+	height: 3rem;
+	width: 3rem;
+}
