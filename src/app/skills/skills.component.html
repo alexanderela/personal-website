@@ -1,12 +1,18 @@
 <section class='Skills'>
-<table class='Skills-table' *ngFor='let skillset of skillsets'>
+	<table 
+		class='Skills-table' 
+		*ngFor='let skillset of skillsets'
+	>
 		<thead>
 			<tr>
 				<th>{{skillset.category}}</th>
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='tbody-row' *ngFor='let skill of skillset.skills'>
+			<tr 
+				class='tbody-row' 
+				*ngFor='let skill of skillset.skills'
+			>
 				<td class='td-name'>{{skill.name}}</td>
 				<td class='td-image'>
 					<div class='skills-icon' [ngStyle]="{ 'background-image': 'url(' + skill.image + ')'}"></div>

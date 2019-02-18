@@ -1,0 +1,84 @@
+.portfolio-instance {
+	display: grid;
+  grid-template-areas:
+  'overview focus'
+  'image image'
+  'footer footer';
+  padding: 1rem;
+}
+
+.portfolio-header-overview-container {
+	grid-area: overview;
+	padding: 0.5rem 0 0 1rem;
+}
+
+.portfolio-app-header {
+	color: #0D2C54;
+	font-weight: 700;
+}
+
+.portfolio-app-overview {
+	padding: 0.5rem 0 0;
+	width: 75%;
+}
+
+.portfolio-areas-of-focus {
+	grid-area: focus;
+	width: 10rem;
+}
+
+.portfolio-areas-of-focus-header {
+	color: #0D2C54;
+	font-weight: 700;
+}
+
+.portfolio-areas-of-focus-items {
+	margin: 0.5rem;
+}
+
+.portfolio-areas-of-focus-item {
+	list-style-type: disc;
+	margin: 0.1rem 0 0 1rem;
+}
+
+.portfolio-app-image {
+  background-size: cover;
+  border-radius: 10px;
+	grid-area: image;
+	height: 13rem;
+  margin: 1rem auto;
+  width: 24rem;
+}
+
+.portfolio-footer {
+	display: flex;
+	grid-area: footer;
+	height: 4rem;
+  justify-content: center;
+}
+
+.portfolio-footer-link-entry {
+	align-items: center;
+	display: flex;
+ 	font-size: 0.85rem;
+	height: 4rem;
+	justify-content: center;
+  width: 15rem;
+}
+
+.portfolio-footer-icon {
+	background-size: cover;
+	border-radius: 50%;
+	height: 2rem;
+	margin: 0 0.5rem 0 0;
+  width: 2rem;
+}
+
+.portfolio-footer-break {
+  border: 0;
+  height: 0;
+  border-top: 1px solid #E1E1E1;
+  border-bottom: 1px solid #E1E1E1;
+  margin: 6rem 0 1rem;
+  grid-area: footer;
+}

@@ -60,12 +60,12 @@ a:hover {
 	width: 50%;
 }
 
-.header-break {
+/*.header-break {
 	border-width: 0;
 	width: 60%;
   border-top: 1px solid #E1E1E1;
   margin: 0 auto 0.5rem;
-}
+}*/
 
 .page-bottom-half {
 	display: grid;
@@ -110,7 +110,7 @@ a:hover {
 	justify-content: space-between;
 	margin: 3rem 0 0;
   width: 100%;
-  border-right: 1px solid #dcdcdc;
+  /*border-right: 1px solid #dcdcdc;*/
 }
 
 .sidebar-nav-button {
@@ -135,7 +135,7 @@ a:hover {
 }
 
 .main-content {
-	margin: 0 5rem 0 0;
+	margin: 0 10rem 0 0;
 }
 
 .footer {
