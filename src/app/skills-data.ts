@@ -48,7 +48,7 @@ export const SKILLSETS: Skillset[] = [
 	{
 		category: 'Other',
 		skills: [
-			{ name: 'Object Oriented Programming (OOP)', image: '../../assets/other/oop.png'},
+			{ name: 'OOP', image: '../../assets/other/oop.png'},
 			{ name: 'Heroku', image: '../../assets/other/heroku.png'},
 			{ name: 'npm', image: '../../assets/other/npm.png'},
 			{ name: 'Babel', image: '../../assets/other/babel.png'},
@@ -58,7 +58,7 @@ export const SKILLSETS: Skillset[] = [
 		]
 	},
 	{
-		category: 'Learning',
+		category: 'Currently Learning',
 		skills: [
 			{ name: 'TypeScript', image: '../../assets/learning/typescript.png'},
 			{ name: 'AngularJS', image: '../../assets/learning/angular.png'},
