@@ -1,27 +1,28 @@
 <section class='Portfolio'>
-	<section class='portfolio-header-overview-container'
-		*ngFor='let portfolio of portfolios'>
-		<h3 class='portfolio-app-header'>{{portfolio.title}}</h3>
-		<p class='portfolio-app-overview'>{{portfolio.overview}}</p>
+	<section class='portfolio-instance' *ngFor='let portfolio of portfolios'>
+		<section class='portfolio-header-overview-container'>
+			<h3 class='portfolio-app-header'>{{portfolio.title}}</h3>
+			<p class='portfolio-app-overview'>{{portfolio.overview}}</p>
+		</section>
+		<section class='portfolio-areas-of-focus'>
+			<h4 class='portfolio-areas-of-focus-header'>Areas of Focus</h4>
+			<ul class='portfolio-areas-of-focus-items'>
+				<li class='portfolio-areas-of-focus-item'
+						*ngFor='let area of portfolio.focusAreas'
+				>{{area}}
+			</ul>
+		</section>
+		<div class='portfolio-app-image' [ngStyle]="{ 'background-image': 'url(' + portfolio.image + ')'}"></div>
+		<section class='portfolio-footer'>
+			<div class='portfolio-footer-link-entry'>
+				<div class='portfolio-footer-live-icon'></div>
+				<a></a>
+			</div>
+			<div class='portfolio-footer-link-entry'>
+				<div class='portfolio-footer-github-icon' background='../../../assets/workflow/github.png'></div>
+				<a></a>
+			</div>
+		</section>
+		<hr class='portfolio-footer-break'>
 	</section>
-	<section class='portfolio-areas-of-focus'>
-		<h4 class='portfolio-areas-of-focus-header'></h4>
-		<ul class='portfolio-areas-of-focus-items'>
-			<li class='portfolio-areas-of-focus-item'
-					*ngFor='let area of portfolio.focusAreas'
-			>{{area}}
-		</ul>
-	</section>
-	<div class='portfolio-app-image' [ngStyle]="{ 'background-image': 'url(' + portfolio.image + ')'}"></div>
-	<section class='portfolio-footer'>
-		<div class='portfolio-footer-link-entry'>
-			<div class='portfolio-footer-live-icon'></div>
-			<a></a>
-		</div>
-		<div class='portfolio-footer-link-entry'>
-			<div class='portfolio-footer-github-icon'></div>
-			<a></a>
-		</div>
-	</section>
-	<hr class='portfolio-footer-break'>
 </section>
