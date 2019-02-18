@@ -7,7 +7,8 @@ export const PORTFOLIOS: Portfolio[] = [
 		focusAreas: ['React.js', 'Redux', 'Redux-thunk','SCSS (Sass)', 'Jest / Enzyme', 'Travis CI', 'Heroku'],
 		image: '../../assets/portfolio_projects/world-of-flags.png',
 		deployedLink: 'https://world-of-flags.herokuapp.com/',
-		githubLink: 'https://github.com/alexanderela/world-of-flags'
+		githubLink: 'https://github.com/alexanderela/world-of-flags',
+		favicon: '../../assets/favicons/wof-favicon.png'
 	},
 	{
 		title: 'Palette Picker',
@@ -15,7 +16,8 @@ export const PORTFOLIOS: Portfolio[] = [
 		focusAreas: ['Node.js', 'Express.js', 'Knex.js', 'PostgreSQL', 'jQuery', 'Heroku'],
 		image: '../../assets/portfolio_projects/palette-picker.png',
 		deployedLink: 'https://palette-picker-alexanderela.herokuapp.com/',
-		githubLink: 'https://github.com/alexanderela/palette-picker'
+		githubLink: 'https://github.com/alexanderela/palette-picker',
+		favicon: '../../assets/favicons/pp-favicon.png'
 	},
 	{
 		title: 'Disc Golf Guru',
@@ -23,7 +25,8 @@ export const PORTFOLIOS: Portfolio[] = [
 		focusAreas: ['React.js', 'Redux', 'Redux-thunk', 'React Router', 'Jest / Enzyme', 'Async Fetch Calls', 'Open Weather Map API', 'DGCR API'],
 		image: '../../assets/portfolio_projects/disc-golf-guru.png',
 		deployedLink: 'https://alexanderela.github.io/disc-golf-guru/',
-		githubLink: 'https://github.com/alexanderela/disc-golf-guru'
+		githubLink: 'https://github.com/alexanderela/disc-golf-guru',
+		favicon: '../../assets/favicons/dgg-favicon.png'
 	},
 	{
 		title: 'Movie Tracker',
@@ -31,7 +34,8 @@ export const PORTFOLIOS: Portfolio[] = [
 		focusAreas: ['React.js', 'Redux', 'Redux-thunk', 'React Router', 'Jest / Enzyme', 'The Movie Database API'],
 		image: '../../assets/portfolio_projects/movie-tracker.png',
 		deployedLink: 'https://movie-tracker.netlify.com/',
-		githubLink: 'https://github.com/alexanderela/movie-tracker'
+		githubLink: 'https://github.com/alexanderela/movie-tracker',
+		favicon: '../../assets/favicons/mt-favicon.png'
 	},
 	{
 		title: 'SWAPI Box',
@@ -39,6 +43,7 @@ export const PORTFOLIOS: Portfolio[] = [
 		focusAreas: ['React.js', 'Redux', 'Redux-thunk', 'React Router', 'Jest / Enzyme', 'The Movie Database API'],
 		image: '../../assets/portfolio_projects/swapi-box.png',
 		deployedLink: 'https://djcaraballo.github.io/SWAPI-box/',
-		githubLink: 'https://github.com/alexanderela/star-wars-api-box'
+		githubLink: 'https://github.com/alexanderela/star-wars-api-box',
+		favicon: '../../assets/favicons/swapi-favicon.ico'
 	}
 ]

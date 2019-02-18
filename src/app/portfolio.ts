@@ -5,4 +5,5 @@ export class Portfolio {
 	image: string;
 	deployedLink: string;
 	githubLink: string;
+	favicon: string;
 }

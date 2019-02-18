@@ -15,7 +15,7 @@
 		<div class='portfolio-app-image' [ngStyle]="{ 'background-image': 'url(' + portfolio.image + ')'}"></div>
 		<section class='portfolio-footer'>
 			<div class='portfolio-footer-link-entry'>
-				<div class='portfolio-footer-icon' style="background-image:url('../../assets/workflow/github.png')"></div>
+				<div class='portfolio-footer-icon' [ngStyle]="{ 'background-image': 'url(' + portfolio.favicon + ')'}"></div>
 				<a href='{{portfolio.deployedLink}}'>{{portfolio.title}} live</a>
 			</div>
 			<div class='portfolio-footer-link-entry'>
