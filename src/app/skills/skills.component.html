@@ -9,7 +9,7 @@
 			<tr class='tbody-row' *ngFor='let skill of skillset.skills'>
 				<td class='td-name'>{{skill.name}}</td>
 				<td class='td-image'>
-					<div class='skills-icon html' [ngStyle]="{ 'background-image': 'url(' + skill.image + ')'}"></div>
+					<div class='skills-icon' [ngStyle]="{ 'background-image': 'url(' + skill.image + ')'}"></div>
 				</td>
 			</tr>
 		</tbody>

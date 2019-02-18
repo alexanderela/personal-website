@@ -1,8 +1,9 @@
 .Skills {
 	display: grid;
-	grid-gap: 3rem;
+	grid-gap: 4rem;
 	grid-template-columns: repeat(auto-fit, 10rem);
-	margin: 0 10rem 0 2rem;
+	/*margin: 0 10rem 0 2rem;*/
+	margin: 0 2rem;
 }
 
 table {
@@ -35,10 +36,11 @@ tr {
 }
 
 td {
-	display: flex;
 	align-items: center;
-	height: 4rem;
+	display: flex;
+	height: 3rem;
 	justify-content: center;
+	text-align: center;
 	/*border-right: 1px solid black;*/
 	/*border-left: 1px solid black;*/
 }
@@ -52,30 +54,8 @@ td {
 }
 
 .skills-icon {
-	height: 3rem;
-	width: 3rem;
 	background-size: cover;
+	border-radius: 10px;
+	height: 2rem;
+	width: 2rem;
 }
-
-.html {
-	background-image: url('../../assets/front_end/html.png');
-	/*border: 0;*/
-	height: 3rem;
-	width: 3rem;
-}
-
-.css {
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
