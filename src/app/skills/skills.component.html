@@ -1,23 +1,26 @@
 <section class='Skills'>
-	<table 
-		class='Skills-table' 
-		*ngFor='let skillset of skillsets'
-	>
-		<thead>
-			<tr>
-				<th>{{skillset.category}}</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr 
-				class='tbody-row' 
-				*ngFor='let skill of skillset.skills'
-			>
-				<td class='td-name'>{{skill.name}}</td>
-				<td class='td-image'>
-					<div class='skills-icon' [ngStyle]="{ 'background-image': 'url(' + skill.image + ')'}"></div>
-				</td>
-			</tr>
-		</tbody>
-	</table>
+	<h2 class='skills-header'>Skills</h2>
+	<section class='skills-container'>
+		<table 
+			class='skills-table' 
+			*ngFor='let skillset of skillsets'
+		>
+			<thead>
+				<tr>
+					<th>{{skillset.category}}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr 
+					class='tbody-row' 
+					*ngFor='let skill of skillset.skills'
+				>
+					<td class='td-name'>{{skill.name}}</td>
+					<td class='td-image'>
+						<div class='skills-icon' [ngStyle]="{ 'background-image': 'url(' + skill.image + ')'}"></div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
 </section>
