@@ -60,13 +60,6 @@ a:hover {
 	width: 50%;
 }
 
-/*.header-break {
-	border-width: 0;
-	width: 60%;
-  border-top: 1px solid #E1E1E1;
-  margin: 0 auto 0.5rem;
-}*/
-
 .page-bottom-half {
 	display: grid;
 	grid-template-columns: 14rem 1fr;
@@ -110,7 +103,6 @@ a:hover {
 	justify-content: space-between;
 	margin: 3rem 0 0;
   width: 100%;
-  /*border-right: 1px solid #dcdcdc;*/
 }
 
 .sidebar-nav-button {
