@@ -8,7 +8,7 @@
   'overview focus'
   'image image'
   'footer footer';
-  margin: 0 0 2rem 0;
+  /*margin: 0 0 2rem 0;*/
   padding: 1rem;
 }
 
@@ -47,28 +47,37 @@
   background-size: cover;
 	grid-area: image;
 	height: 13rem;
-  margin: 0 auto;
+  margin: 1rem auto;
   width: 24rem;
 }
 
 .portfolio-footer {
 	grid-area: footer;
-	height: 10=rem;
+	height: 4rem;
+	display: flex;
+  justify-content: space-evenly;
 }
 
 .portfolio-footer-link-entry {
-
+	align-items: center;
+	display: flex;
+ 	font-size: 0.85rem;
+	height: 4rem;
+  width: 15rem;
 }
 
-.portfolio-footer-live-icon {
-
-}
-
-.portfolio-footer-github-icon {
-	height: 3rem;
-  width: 3rem;
+.portfolio-footer-icon {
+	background-size: cover;
+	height: 2rem;
+	margin: 0 0.5rem 0 0;
+  width: 2rem;
 }
 
 .portfolio-footer-break {
-
+  border: 0;
+  height: 0;
+  border-top: 1px solid #E1E1E1;
+  border-bottom: 1px solid #E1E1E1;
+  margin: 6rem 0 1rem;
+  grid-area: footer;
 }

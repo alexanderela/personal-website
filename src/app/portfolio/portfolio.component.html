@@ -15,12 +15,12 @@
 		<div class='portfolio-app-image' [ngStyle]="{ 'background-image': 'url(' + portfolio.image + ')'}"></div>
 		<section class='portfolio-footer'>
 			<div class='portfolio-footer-link-entry'>
-				<div class='portfolio-footer-live-icon'></div>
-				<a></a>
+				<div class='portfolio-footer-icon' style="background-image:url('../../assets/workflow/github.png')"></div>
+				<a href='{{portfolio.deployedLink}}'>{{portfolio.title}} live</a>
 			</div>
 			<div class='portfolio-footer-link-entry'>
-				<div class='portfolio-footer-github-icon' background='../../../assets/workflow/github.png'></div>
-				<a></a>
+				<div class='portfolio-footer-icon' style="background-image:url('../../assets/workflow/github.png')"></div>
+				<a href='{{portfolio.githubLink}}'>{{portfolio.title}} on GitHub</a>
 			</div>
 		</section>
 		<hr class='portfolio-footer-break'>
