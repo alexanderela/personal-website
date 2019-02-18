@@ -1,8 +1,6 @@
+import { Skillset, Skill } from './skillset';
 
-// export const SKILLS: 
-
-
-const allSkills = [
+export const SKILLSETS: Skillset[] = [
 	{
 		category: 'Front End',
 		skills: [
@@ -13,7 +11,7 @@ const allSkills = [
 			{ name: 'Sass', image: '../../assets/front_end/sass.png'},
 			{ name: 'Accessibility', image: '../../assets/front_end/aria.png'},
 			{ name: 'JQuery', image: '../../assets/front_end/jquery.png'},
-			{ name: 'Redux', image: '../../assets/front_end/redux.png'},
+			{ name: 'Redux', image: '../../assets/front_end/redux.png'}
 		]
 	},
 	{
@@ -24,7 +22,7 @@ const allSkills = [
 			{ name: 'Knex.js', image: '../../assets/back_end/knex.png'},
 			{ name: 'PostgreSQL', image: '../../assets/back_end/postgres.png'},
 			{ name: 'Restful APIs', image: '../../assets/back_end/api.png'},
-			{ name: 'Travis CI', image: '../../assets/back_end/travis-ci.png'},
+			{ name: 'Travis CI', image: '../../assets/back_end/travis-ci.png'}
 		]
 	},
 	{
@@ -33,7 +31,7 @@ const allSkills = [
 			{ name: 'Jest', image: '../../assets/testing/jest.png'},
 			{ name: 'Enzyme', image: '../../assets/testing/enzyme.png'},
 			{ name: 'Mocha', image: '../../assets/testing/mocha.png'},
-			{ name: 'Chai', image: '../../assets/testing/chai.png'},
+			{ name: 'Chai', image: '../../assets/testing/chai.png'}
 		]
 	},
 	{
@@ -44,7 +42,7 @@ const allSkills = [
 			{ name: 'Git Rebase', image: '../../assets/workflow/rebase.png'},
 			{ name: 'Agile', image: '../../assets/workflow/agile.png'},
 			{ name: 'Pair Programming', image: '../../assets/workflow/pair.png'},
-			{ name: 'Project Management', image: '../../assets/workflow/project-management.png'},
+			{ name: 'Project Management', image: '../../assets/workflow/project-management.png'}
 		]
 	},
 	{
@@ -56,7 +54,7 @@ const allSkills = [
 			{ name: 'Babel', image: '../../assets/other/babel.png'},
 			{ name: 'Spanish', image: '../../assets/other/spanish.png'},
 			{ name: 'French', image: '../../assets/other/french.png'},
-			{ name: 'German', image: '../../assets/other/german.png'},
+			{ name: 'German', image: '../../assets/other/german.png'}
 		]
 	},
 	{
@@ -65,7 +63,7 @@ const allSkills = [
 			{ name: 'TypeScript', image: '../../assets/learning/typescript.png'},
 			{ name: 'AngularJS', image: '../../assets/learning/angular.png'},
 			{ name: 'Vue.js', image: '../../assets/learning/vue.png'},
-			{ name: 'React Native', image: '../../assets/learning/react-native.png'},
+			{ name: 'React Native', image: '../../assets/learning/react-native.png'}
 		]
-	},
-]
+	}
+];

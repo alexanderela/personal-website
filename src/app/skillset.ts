@@ -1,5 +1,5 @@
 export class Skill {
-	constructor(private name: string, private image: string) {}
+	constructor(public name: string, public image: string) {}
 }
 
 export class Skillset {
