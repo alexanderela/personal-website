@@ -57,3 +57,19 @@ td {
 	height: 2rem;
 	width: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+	.skills-container {
+		margin: 0 1rem;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.skills-container {
+		grid-template-columns: repeat(auto-fit, 100%);
+	}
+
+	.skills-header {
+		margin: 0 0 1rem;
+	}
+}
