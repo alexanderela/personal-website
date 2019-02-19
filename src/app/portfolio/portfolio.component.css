@@ -93,7 +93,7 @@
 /*@media screen and (max-width: 768px) {
 }*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 735px) {
 	.portfolio-instance {
 	  grid-template-areas:
 	  'overview'
