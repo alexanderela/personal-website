@@ -146,7 +146,7 @@ a:hover {
 	.site-header-name-image-container {
 		grid-area: header;
     margin: 0 0 2rem;
-		width: 100%;
+		width: 45%;
 	}
 
 	.site-header-nav {
@@ -170,12 +170,16 @@ a:hover {
 }
 
 @media screen and (max-width: 320px) {
+	.site-header-name-image-container {
+		width: 100%;
+	}
+
 	.site-header {
 		padding: 1.5rem 0.75rem 1rem;
 	}
 
 	.nav-link {
-		font-size: 0.9rem;
+		font-size: 1.1rem;
     text-align: center;
 	}
 	
