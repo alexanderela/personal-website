@@ -146,13 +146,13 @@ a:hover {
 	.site-header-name-image-container {
 		grid-area: header;
     margin: 0 0 2rem;
-		width: 20rem;
+		width: 100%;
 	}
 
 	.site-header-nav {
 		grid-area: nav;
 		margin: 0 0 1rem;
-		width: 90%;
+		width: 100%;
 	}
 
   .site-header {
@@ -167,4 +167,36 @@ a:hover {
 		height: 5rem;
 		width: 5rem;  	
   }
+}
+
+@media screen and (max-width: 320px) {
+	.site-header {
+		padding: 1.5rem 0.75rem 1rem;
+	}
+
+	.nav-link {
+		font-size: 0.9rem;
+    text-align: center;
+	}
+	
+	.page-bottom-half {
+		grid-template-columns: 1fr;
+	}
+
+	.sidebar-nav-button-container {
+    flex-direction: row;
+    height: 1rem;
+    justify-content: space-between;
+		margin: 0 0 3rem;
+		padding: 1.5rem 1.5rem 1rem;
+    width: 100%;
+	}
+
+	.main-content {
+		margin: 0;
+	}
+	
+	.far, .fab, .fas {
+		margin: 0 0.15rem 0 0.15rem;
+	}
 }
