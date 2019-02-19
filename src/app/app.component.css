@@ -8,17 +8,22 @@ a:hover {
 }
 
 .site-header {
-	align-items: center;
+	display: grid;
+	grid-template-areas: 
+	'header'
+	'nav';
+	justify-items: center;
 	background: #FFF;
-	display: flex;
-	padding: 2rem 1rem 1rem;
+	padding: 2rem 1rem 3rem;
 }
 
 .site-header-name-image-container {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	width: 30rem;
+	grid-area: header;
+  margin: 0 0 2rem;
+	width: 23rem;
 }
 
 .site-header, h3 {
@@ -57,7 +62,9 @@ a:hover {
 	display: flex;
 	justify-content: space-evenly;
 	height: 100%;
-	width: 50%;
+	grid-area: nav;
+	margin: 0 0 1rem;
+	width: 80%;	
 }
 
 .page-bottom-half {
@@ -127,7 +134,7 @@ a:hover {
 }
 
 .main-content {
-	margin: 0 10rem 0 0;
+	margin: 0 8rem 0 0;
 }
 
 .footer {
@@ -140,4 +147,81 @@ a:hover {
 .footer-content {
 	color: #a9a8a8;
 	margin: 2rem 0 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+	.site-header-name-image-container {
+		grid-area: header;
+    margin: 0 0 2rem;
+		width: 19rem;
+	}
+
+	.site-header-nav {
+		grid-area: nav;
+		margin: 0 0 1rem;
+		width: 100%;
+	}
+
+  .site-header {
+  	display: grid;
+  	grid-template-areas: 
+  	'header'
+  	'nav';
+  	justify-items: center;
+  }
+
+  .site-header-image {
+		height: 5rem;
+		width: 5rem;  	
+  }
+}
+
+@media screen and (max-width: 735px) {
+/*	.site-header-name-image-container {
+		width: 100%;
+	}*/
+
+	.site-header {
+		padding: 1.5rem 0.75rem 1rem;
+	}
+
+	.nav-link {
+  	display: flex;
+    flex-direction: column;
+		font-size: 1rem;
+    text-align: center;
+	}
+	
+	.page-bottom-half {
+		grid-template-columns: 1fr;
+	}
+
+	.sidebar-nav-button-container {
+    flex-direction: row;
+    height: 1rem;
+    justify-content: space-between;
+		margin: 0 0 3rem;
+		padding: 1.5rem 1.25rem 1rem;
+    width: 62%;
+	}
+
+	.main-content {
+		margin: 0;
+	}
+	
+	.far, .fab, .fas {
+		margin: 0 0.15rem 0 0.15rem;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.sidebar-nav-button-container {
+		width: 73%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.sidebar-nav-button-container {
+		width: 100%;
+	}
 }

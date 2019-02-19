@@ -22,3 +22,15 @@
 .paragraph-3 {
 	font-weight: 700;	
 }
+
+@media screen and (max-width: 768px) {
+	.About-summary {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.About-summary {
+		padding: 0 2rem;
+	}
+}

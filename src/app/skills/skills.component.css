@@ -3,7 +3,7 @@
 	grid-column-gap: 4rem;
 	grid-row-gap: 1rem;
 	grid-template-columns: repeat(auto-fit, 10rem);
-	margin: 0 2rem;	
+	margin: 0 1rem;	
 }
 
 .skills-header {
@@ -56,4 +56,30 @@ td {
 	border-radius: 10px;
 	height: 2rem;
 	width: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+	.skills-container {
+		margin: 0 1rem;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.skills-header {
+		margin: 0 0 1rem;
+	}
+
+	.skills-container {
+		grid-column-gap: 0.5rem;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.skills-container {
+		grid-template-columns: repeat(auto-fit, 100%);
+	}
+
+	.skills-header {
+		margin: 0 0 1rem;
+	}
 }
