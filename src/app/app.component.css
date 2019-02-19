@@ -42,6 +42,7 @@ a:hover {
 .site-header-name {
 	color: #0D2C54;
 	font-size: 2rem;
+  margin: 0;
 }
 
 .site-header-title {
