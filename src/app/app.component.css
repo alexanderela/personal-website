@@ -141,3 +141,30 @@ a:hover {
 	color: #a9a8a8;
 	margin: 2rem 0 2.5rem;
 }
+
+@media screen and (max-width: 768px) {
+	.site-header-name-image-container {
+		grid-area: header;
+    margin: 0 0 2rem;
+		width: 20rem;
+	}
+
+	.site-header-nav {
+		grid-area: nav;
+		margin: 0 0 1rem;
+		width: 90%;
+	}
+
+  .site-header {
+  	display: grid;
+  	grid-template-areas: 
+  	'header'
+  	'nav';
+  	justify-items: center;
+  }
+
+  .site-header-image {
+		height: 5rem;
+		width: 5rem;  	
+  }
+}
