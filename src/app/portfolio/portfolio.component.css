@@ -17,7 +17,7 @@
 
 .portfolio-header-overview-container {
 	grid-area: overview;
-	padding: 0.5rem 0 0 1rem;
+	/*padding: 0.5rem 0 0 1rem;*/
 }
 
 .portfolio-app-header {
@@ -90,3 +90,15 @@
   margin: 6rem 0 1rem;
   grid-area: footer;
 }
+
+/*@media screen and (max-width: 768px) {
+	.d {
+
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.d {
+
+	}
+}*/
