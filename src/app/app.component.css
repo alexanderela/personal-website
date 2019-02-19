@@ -209,7 +209,9 @@ a:hover {
 	}
 
 	.nav-link {
-		font-size: 1.1rem;
+  	display: flex;
+    flex-direction: column;
+		font-size: 1rem;
     text-align: center;
 	}
 	
@@ -222,7 +224,7 @@ a:hover {
     height: 1rem;
     justify-content: space-between;
 		margin: 0 0 3rem;
-		padding: 1.5rem 1.5rem 1rem;
+		padding: 1.5rem 1.25rem 1rem;
     width: 100%;
 	}
 
