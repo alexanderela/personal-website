@@ -10,7 +10,7 @@ This is my personal/professional site for my software engineering portfolio.  En
 This is a general guide to setting up a Recharge API development environment on your local machine.
 
 ### Dependencies
-* AngularJS
+* Angular
 * TypeScript
 * See package.json for a list of required modules
 
@@ -102,7 +102,7 @@ git push origin branch-name-here
 * Keep your PR small, with a single focus
 
 ## Technologies Used
-- AngularJS
+- Angular
 - TypeScript
 - CSS3
 

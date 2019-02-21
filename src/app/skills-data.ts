@@ -61,7 +61,7 @@ export const SKILLSETS: Skillset[] = [
 		category: 'Currently Learning',
 		skills: [
 			{ name: 'TypeScript', image: '../../assets/learning/typescript.png'},
-			{ name: 'AngularJS', image: '../../assets/learning/angular.png'},
+			{ name: 'Angular', image: '../../assets/learning/angular.png'},
 			{ name: 'Vue.js', image: '../../assets/learning/vue.png'},
 			{ name: 'React Native', image: '../../assets/learning/react-native.png'}
 		]
