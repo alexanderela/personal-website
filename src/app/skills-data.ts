@@ -8,7 +8,6 @@ export const SKILLSETS: Skillset[] = [
 			{ name: 'React', image: '../../assets/front_end/react.png'},
 			{ name: 'HTML5', image: '../../assets/front_end/html.png'},
 			{ name: 'CSS3', image: '../../assets/front_end/css.png'},
-			{ name: 'Sass', image: '../../assets/front_end/sass.png'},
 			{ name: 'Accessibility', image: '../../assets/front_end/aria.png'},
 			{ name: 'JQuery', image: '../../assets/front_end/jquery.png'},
 			{ name: 'Redux', image: '../../assets/front_end/redux.png'}
@@ -43,18 +42,6 @@ export const SKILLSETS: Skillset[] = [
 			{ name: 'Agile', image: '../../assets/workflow/agile.png'},
 			{ name: 'Pair Programming', image: '../../assets/workflow/pair.png'},
 			{ name: 'Project Management', image: '../../assets/workflow/project-management.png'}
-		]
-	},
-	{
-		category: 'Other',
-		skills: [
-			{ name: 'OOP', image: '../../assets/other/oop.png'},
-			{ name: 'Heroku', image: '../../assets/other/heroku.png'},
-			{ name: 'npm', image: '../../assets/other/npm.png'},
-			{ name: 'Babel', image: '../../assets/other/babel.png'},
-			{ name: 'Spanish', image: '../../assets/other/spanish.png'},
-			{ name: 'French', image: '../../assets/other/french.png'},
-			{ name: 'German', image: '../../assets/other/german.png'}
 		]
 	},
 	{
