@@ -79,7 +79,7 @@ nav div a:before {
 nav.site-header-nav a {
   align-items: center;
   display: flex;
-  height: 2rem;
+  height: 2.5rem;
   justify-content: center;
 	position: relative;
   width: 8rem;
