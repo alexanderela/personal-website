@@ -2,8 +2,8 @@
 	display: grid;
 	grid-column-gap: 4rem;
 	grid-row-gap: 1rem;
-	grid-template-columns: repeat(auto-fit, 10rem);
-	margin: 0 1rem;	
+	grid-template-columns: repeat(auto-fit, 9rem);
+	justify-content: center;
 }
 
 .skills-header {
@@ -48,7 +48,7 @@ td {
 }
 
 .td-image {
-	width: 4rem;	
+	width: 2rem;	
 }
 
 .skills-icon {
