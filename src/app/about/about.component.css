@@ -17,8 +17,15 @@
 .About-summary-paragraph {
 	margin: 0 0 1rem;
 	text-align: center;
-  /*transition: all 0.75s ease-out;*/
+}
+
+.About-header, .About-summary-paragraph {
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+		 -moz-animation: fadein 2s; /* Firefox < 16 */
+			-ms-animation: fadein 2s; /* Internet Explorer */
+			 -o-animation: fadein 2s; /* Opera < 12.1 */
 	animation: fadein 2s;
+	transition: all 0.75s ease-out;
 }
 
 @keyframes fadein {
