@@ -67,10 +67,13 @@ a {
 nav a,
 nav a:after,
 nav a:before,
-nav div a,
+nav div a {
+  transition: all .25s ease-out;
+} 
+
 nav div a:after,
 nav div a:before {
-  transition: all .25s ease-out;
+  transition: all .75s ease-out;
 } 
 
 nav.site-header-nav a {
@@ -105,10 +108,6 @@ nav.site-header-nav a:after {
 	z-index: -1;
 }
 
-/*nav a:hover {
-  color: #555;
-}*/
-
 nav.site-header-nav a:hover:after {
 	height: 100%;
 	opacity: 1;
@@ -134,19 +133,16 @@ nav.sidebar-nav div a {
 }
 
 nav.sidebar-nav div a:after {
-	/*background: #aaa;*/
 	border-radius: 3px;
 	bottom: 0;
 	color: transparent;
 	content: '.';
-	/*display: block;*/
 	height: 1px;
 	left: 0;
 	margin: 0;
 	opacity: 0;
 	position: absolute;
 	right: 0;
-	/*visibility: none;*/
 	text-align: left;
 	width: 0%;
 }
@@ -158,9 +154,9 @@ nav.sidebar-nav div a:hover, fa-chevron-right:hover {
 
 nav.sidebar-nav div a:hover:after {
 	z-index: -10;
-	animation: fill 1s forwards;
-	-webkit-animation: fill 1s forwards;
-  -moz-animation: fill 1s forwards;
+	animation: fill .85s forwards;
+	-webkit-animation: fill .85s forwards;
+  -moz-animation: fill .85s forwards;
 	opacity: 1;
 }
 
@@ -238,19 +234,25 @@ nav.sidebar-nav div a:hover:after {
 	font-size: 1.25rem;
 }
 
+.nav-button-selected {
+	background: #0D2C54;
+	border-radius: 3px;
+	color: #FFF;
+}
+
 .far, .fab, .fas {
 	margin: 0 0.5rem 0 0;
 }
 
-.nav-about {
+.about-chevron {
 	color: #F6511D;
 }
 
-.nav-skills {
+.skills-chevron {
 	color: #FFB400;
 }
 
-.nav-portfolio {
+.portfolio-chevron {
 	color: #00A6ED;
 }
 
