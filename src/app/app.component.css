@@ -230,14 +230,13 @@ nav.sidebar-nav div a:hover:after {
 	justify-content: center;
 	height: 2.25rem;
 	width: 8rem;
-	color: #0D2C54;
+	color: #999;
 	font-size: 1.25rem;
 }
 
 .nav-button-selected {
-	background: #0D2C54;
-	border-radius: 3px;
-	color: #FFF;
+	color: #0D2C54;
+	font-weight: 700;
 }
 
 .far, .fab, .fas {
