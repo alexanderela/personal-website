@@ -129,7 +129,7 @@ nav.site-header-nav a:hover:after {
 
 nav.sidebar-nav div a {
 	position: relative;
-	transition: all 1s;
+	transition: all 0.5s;
 }
 
 nav.sidebar-nav div a:after {
