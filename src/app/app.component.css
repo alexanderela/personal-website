@@ -237,7 +237,9 @@ nav.sidebar-nav div a:hover:after {
 .nav-button-selected {
 	color: #0D2C54;
 	font-weight: 700;
+	font-size: 1.5rem;
 }
+
 
 .far, .fab, .fas {
 	margin: 0 0.5rem 0 0;
