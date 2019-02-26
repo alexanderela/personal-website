@@ -79,6 +79,11 @@ td {
 	width: 2rem;
 }
 
+.skills-footer-break {
+  width: 50%;
+  margin: 1rem auto 1rem;
+}
+
 @media screen and (max-width: 768px) {
 	.skills-container {
 		margin: 0 1rem;
@@ -92,6 +97,12 @@ td {
 
 	.skills-container {
 		grid-column-gap: 0.5rem;
+	}
+}
+
+@media screen and (max-width: 327px) {
+	.skills-footer-break {
+	  margin: 3rem auto 1rem;
 	}
 }
 
