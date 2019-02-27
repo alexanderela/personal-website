@@ -117,6 +117,8 @@ git push origin branch-name-here
 ![Alt text](s "Mobile view")
 
 ### Wireframe
-![Alt text](s "Wireframe")
+![Alt text](s "About Wireframe")
+![Alt text](s "Skills Wireframe")
+![Alt text](s "Portfolio Wireframe")
 
 ## This README relied upon Open Food Source's extensive and excellent [Set Up](https://github.com/openfoodfoundation/openfoodnetwork/blob/master/GETTING_STARTED.md) and [Contibution](https://github.com/openfoodfoundation/openfoodnetwork/blob/master/CONTRIBUTING.md) docs.
