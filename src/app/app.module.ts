@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { SkillsComponent } from './skills/skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ErrorComponent } from './error/error.component';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ErrorComponent } from './error/error.component';
     AboutComponent,
     SkillsComponent,
     PortfolioComponent,
-    ErrorComponent
+    ErrorComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
