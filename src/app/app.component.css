@@ -3,6 +3,10 @@ a {
 	text-decoration: none;
 }
 
+.hidden {
+	display: none;
+}
+
 .site-header {
   display: flex;
   flex-direction: column;
@@ -114,7 +118,7 @@ nav.site-header-nav a:hover:after {
 
 .page-bottom-half {
 	display: grid;
-	grid-template-columns: 14rem 1fr;
+	grid-template-columns: 14rem 1fr 14rem;
   grid-template-areas:
   'sidebar mainContent'
   'sidebar mainContent'
@@ -260,7 +264,6 @@ nav.sidebar-nav div a:hover:after {
 }
 
 .main-content {
-	margin: 0 8rem 0 0;
 	grid-area: mainContent;
 }
 

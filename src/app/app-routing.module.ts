@@ -6,7 +6,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ErrorComponent } from './error/error.component';
 
 const routes: Routes = [
-	{ path: '', redirectTo: '/about', pathMatch: 'full' },
+	// { path: '', redirectTo: '/about', pathMatch: 'full' },
 	{ path: 'about', component: AboutComponent },
 	{ path: 'skills', component: SkillsComponent },
 	{ path: 'portfolio', component: PortfolioComponent },

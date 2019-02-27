@@ -1,4 +1,4 @@
-<header class='site-header'>
+<header class='site-header' *ngIf="!_router.url.includes('404')">
   <div class='site-header-name-image-container'>
     <img class='site-header-image'>
     <div class='nav-link-name-title-container'>
@@ -29,7 +29,7 @@
   </nav>
 </header>
 
-<section class='page-bottom-half'>
+<section class='page-bottom-half' *ngIf="!_router.url.includes('404')">
   <nav class='sidebar-nav'>
     <div class='sidebar-nav-button-container'>
       <a class='sidebar-nav-button'
