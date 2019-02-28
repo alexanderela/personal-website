@@ -1,4 +1,5 @@
-<header class='site-header' *ngIf="!_router.url.includes('404')">
+<router-outlet *ngIf="_router.url === '/'" name='landing'></router-outlet>
+<header class='site-header' *ngIf="_router.url !== '/'">
   <div class='site-header-name-image-container'>
     <img class='site-header-image'>
     <div class='nav-link-name-title-container'>
@@ -29,7 +30,7 @@
   </nav>
 </header>
 
-<section class='page-bottom-half' *ngIf="!_router.url.includes('404')">
+<section class='page-bottom-half' *ngIf="_router.url !== '/'">
   <nav class='sidebar-nav'>
     <div class='sidebar-nav-button-container'>
       <a class='sidebar-nav-button'

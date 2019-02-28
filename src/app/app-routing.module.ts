@@ -7,12 +7,11 @@ import { ErrorComponent } from './error/error.component';
 import { LandingComponent } from './landing/landing.component';
 
 const routes: Routes = [
-	{ path: '', component: LandingComponent },
+	{ path: '', component: LandingComponent, outlet: 'landing' },
 	{ path: 'about', component: AboutComponent },
 	{ path: 'skills', component: SkillsComponent },
 	{ path: 'portfolio', component: PortfolioComponent },
-	{ path: '404', component: ErrorComponent },
-	{ path: '**', redirectTo: '/404' }
+	{ path: '**', component: ErrorComponent }
 ]
 
 @NgModule({
