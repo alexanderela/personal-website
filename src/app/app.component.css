@@ -18,6 +18,7 @@ a {
 	justify-content: space-around;
 	align-items: center;
   margin: 0 0 2rem;
+  opacity: .9;
 	width: 23rem;
 }
 
@@ -37,7 +38,7 @@ a {
 .site-header-name {
 	color: #0D2C54;
 	font-size: 2rem;
-  margin: 0;
+  margin: 0 0 0.25rem 0;
 }
 
 .site-header-title {
@@ -114,7 +115,7 @@ nav.site-header-nav a:hover:after {
 
 .page-bottom-half {
 	display: grid;
-	grid-template-columns: 14rem 1fr;
+	grid-template-columns: 14rem 1fr 14rem;
   grid-template-areas:
   'sidebar mainContent'
   'sidebar mainContent'
@@ -183,6 +184,7 @@ nav.sidebar-nav div a:hover:after {
 	color: #515050;	
 	font-size: 1.25rem;
 	font-weight: 800;
+	opacity: 0.9;
 }
 
 .resume {
@@ -260,7 +262,6 @@ nav.sidebar-nav div a:hover:after {
 }
 
 .main-content {
-	margin: 0 8rem 0 0;
 	grid-area: mainContent;
 }
 
