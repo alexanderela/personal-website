@@ -39,7 +39,12 @@
 }
 
 .landing-nav-link {
+  align-items: center;
+  display: flex;
+  height: 7rem;
+  justify-content: center;
 	text-decoration: none;
+  width: 7rem;
 }
 
 nav a,
@@ -54,9 +59,42 @@ div a:before {
   transition: all .75s ease-out;
 } 
 
+nav.landing-nav a {
+	position: relative;
+	z-index: 1;
+}
+
+nav.landing-nav a:hover {
+	color: #FFF;
+}
+
+nav.landing-nav a:after {
+	border-radius: 8px;
+	bottom: 0;
+	color: transparent;
+	content: '';
+	display: block;
+	height: 1px;
+	left: 0;
+	margin: auto;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	visibility: none;
+	width: 100%;
+	z-index: -1;
+}
+
+nav.landing-nav a:hover:after {
+	height: 100%;
+	opacity: 1;
+	visibility: visible;
+}
+
 .landing-enter-container {
 	text-align: center;
-	width: 50%;
+	width: 90%;
 }
 
 div.landing-enter-container a {
@@ -71,7 +109,7 @@ div.landing-enter-container a:hover {
 }
 
 div.landing-enter-container a:after {
-	border-radius: 3px;
+	border-radius: 8px;
 	bottom: 0;
 	color: transparent;
 	content: '';
@@ -186,17 +224,16 @@ div.landing-enter-container a:hover:after {
 
 @media screen and (max-width: 615px) {
 	.landing-nav {
-		width: 80%;
-	}
-}
-
-@media screen and (max-width: 475px) {
-	.landing-nav {
 		width: 90%;
 	}
 }
 
 @media screen and (max-width: 415px) {
+	.landing-nav-link {
+	  height: 6rem;
+	  width: 6rem;
+	}
+
 	.landing-icon {
 		font-size: 4rem;
 	}
@@ -207,6 +244,11 @@ div.landing-enter-container a:hover:after {
 }
 
 @media screen and (max-width: 350px) {
+	.landing-nav-link {
+	  height: 5.5rem;
+	  width: 5.5rem;
+	}
+
 	.landing-icon {
 		font-size: 3.5rem;
 	}
