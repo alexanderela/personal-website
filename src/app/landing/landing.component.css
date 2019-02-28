@@ -18,11 +18,13 @@
 .landing-intro {
 	color: #434141;
   font-size: 1.5rem;
+  margin: 0 0 1rem;
 }
 
 .landing-click-below {
 	color: #515050;
   font-size: 1.25rem;
+  font-weight: 300;
 }
 
 .landing-nav {
@@ -97,4 +99,40 @@
 	text-align: center;
 	text-decoration: none;
 	text-shadow: 0 1px 3px rgba(225, 225, 225, 0.5)
+}
+
+@media screen and (max-width: 615px) {
+	.landing-nav {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 475px) {
+	.landing-nav {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 415px) {
+	.landing-icon {
+		font-size: 4rem;
+	}
+
+	.landing-icon-resume {
+		font-size: 3rem;	
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.landing-icon {
+		font-size: 3.5rem;
+	}
+
+	.landing-icon-resume {
+		font-size: 2.5rem;	
+	}
+
+	.landing-nav {
+		width: 100%;
+	}
 }
