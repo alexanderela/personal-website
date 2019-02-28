@@ -10,7 +10,7 @@ export class AppComponent implements OnInit {
   title = 'alexanderela.com';
   location = '';
 
-  constructor(private _router: Router) {
+  constructor(public _router: Router) {
   	this.location = _router.url;
   }
 
