@@ -1,6 +1,6 @@
 <section class='App'>
 <router-outlet *ngIf="_router.url === '/'" name='landing'></router-outlet>
-<header class='site-header' *ngIf="_router.url !== '/'">
+<header class='site-header fadein' *ngIf="_router.url !== '/'">
   <div class='site-header-name-image-container'>
     <img class='site-header-image'>
     <div class='nav-link-name-title-container'>
@@ -32,7 +32,7 @@
 </header>
 
 <section class='page-bottom-half' *ngIf="_router.url !== '/'">
-  <nav class='sidebar-nav'>
+  <nav class='sidebar-nav fadein'>
     <div class='sidebar-nav-button-container'>
       <a class='sidebar-nav-button'
          routerLink='/about'

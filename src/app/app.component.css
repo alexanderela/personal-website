@@ -11,6 +11,7 @@ a {
   grid-area: header;
 	background: #FFF;
 	padding: 2rem 1rem 3rem;
+	transition: all 0.75s ease-out;
 }
 
 .site-header-name-image-container {
@@ -93,7 +94,7 @@ nav.site-header-nav a:after {
 	border-radius: 3px;
 	bottom: 0;
 	color: transparent;
-	content: '.';
+	content: '';
 	display: block;
 	height: 1px;
 	left: 0;
@@ -129,6 +130,20 @@ nav.site-header-nav a:hover:after {
 	display: flex;
 	justify-content: center;
 	grid-area: sidebar;
+	transition: all 0.75s ease-out;
+}
+
+.fadein {
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	   -moz-animation: fadein 2s; /* Firefox < 16 */
+	    -ms-animation: fadein 2s; /* Internet Explorer */
+	     -o-animation: fadein 2s; /* Opera < 12.1 */
+	     		animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 nav.sidebar-nav div a {
@@ -140,7 +155,7 @@ nav.sidebar-nav div a:after {
 	border-radius: 3px;
 	bottom: 0;
 	color: transparent;
-	content: '.';
+	content: '';
 	height: 1px;
 	left: 0;
 	margin: 0;
