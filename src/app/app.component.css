@@ -3,10 +3,6 @@ a {
 	text-decoration: none;
 }
 
-.hidden {
-	display: none;
-}
-
 .site-header {
   display: flex;
   flex-direction: column;
