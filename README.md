@@ -52,14 +52,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-#### Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-#### Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
 #### Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
@@ -107,18 +99,30 @@ git push origin branch-name-here
 - CSS3
 
 ## Images:
-### Desktop View
-![Alt text](s "Desktop view")
+### Landing Page
+![Alt text](./src/assets/app/landing.png "Desktop page")
 
-### Tablet View
-![Alt text](s "Tablet view")
+### About Page
+![Alt text](./src/assets/app/about.png "About page")
 
-### Mobile View
-![Alt text](s "Mobile view")
+### Skills Page
+![Alt text](./src/assets/app/skills.png "Skills page")
 
-### Wireframe
-![Alt text](s "About Wireframe")
-![Alt text](s "Skills Wireframe")
-![Alt text](s "Portfolio Wireframe")
+### Portfolio Page
+![Alt text](./src/assets/app/portfolio.png "Portfolio page")
+
+
+## Wireframes:
+### Landing Page Wireframe
+![Alt text](./src/assets/wireframes/landing.png "Desktop page wireframe")
+
+### About Page Wireframe
+![Alt text](./src/assets/wireframes/about.png "About page wireframe")
+
+### Skills Page Wireframe
+![Alt text](./src/assets/wireframes/skills.png "Skills page wireframe")
+
+### Portfolio Page Wireframe
+![Alt text](./src/assets/wireframes/portfolio.png "Portfolio page wireframe")
 
 ## This README relied upon Open Food Source's extensive and excellent [Set Up](https://github.com/openfoodfoundation/openfoodnetwork/blob/master/GETTING_STARTED.md) and [Contibution](https://github.com/openfoodfoundation/openfoodnetwork/blob/master/CONTRIBUTING.md) docs.
