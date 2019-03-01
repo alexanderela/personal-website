@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+// import pdf from '../../assets/Front_End_Engineer_Alexander_Ela_Resume.pdf'
 
 @Component({
   selector: 'app-root',
