@@ -20,17 +20,17 @@ This is a general guide to setting up a Recharge API development environment on 
 
 * `Clone` your fork onto your local machine
 ```
-git clone https://github.com/YOUR_GITHUB_USERNAME_HERE/palette-picker
+git clone https://github.com/YOUR_GITHUB_USERNAME_HERE/personal-website.git
 ```
 
 * Jump into that directory on your local machine
 ```
-cd palette-picker
+cd personal-website
 ```
 
 * Add an upstream remote that points to the main repo:
 ```
-git remote add upstream https://github.com/alexanderela/palette-picker.git
+git remote add upstream https://github.com/YOUR_GITHUB_USERNAME_HERE/personal-website.git
 ```
 
 * Fetch the latest version of `master` from `upstream`
