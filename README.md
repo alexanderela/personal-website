@@ -23,7 +23,7 @@ This is a general guide to setting up a Recharge API development environment on 
 git clone https://github.com/YOUR_GITHUB_USERNAME_HERE/personal-website.git
 ```
 
-* Jump into that directory on your local machine
+* Jump into that directory on your local machine:
 ```
 cd personal-website
 ```
@@ -33,7 +33,7 @@ cd personal-website
 git remote add upstream https://github.com/YOUR_GITHUB_USERNAME_HERE/personal-website.git
 ```
 
-* Fetch the latest version of `master` from `upstream`
+* Fetch the latest version of `master` from `upstream`:
 ```
 git fetch upstream master
 ```
