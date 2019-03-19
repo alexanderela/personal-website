@@ -1,7 +1,7 @@
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/alexanderela/personal-website.svg?columns=all)](https://waffle.io/alexanderela/personal-website)
 
 # PersonalWebsite
-This is my personal/professional site for my software engineering portfolio.  Enjoy!
+This is my personal/professional site for my software engineering portfolio.  It's my first foray into Angular/TypeScript and has taught me the joys of using Angular, particularly in regard to routing.  Enjoy!
 
 ## Deployed App
 [www.alexanderela.com](https://www.alexanderela.com/)
