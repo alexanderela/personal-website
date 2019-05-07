@@ -3,7 +3,7 @@ import { Portfolio } from './portfolio';
 export const PORTFOLIOS: Portfolio[] = [
 	{
 		title: 'World of Flags',
-		overview: 'World of flags is an app designed to help users teach themselves the flags of the world. Its underlying goal is to stimulate users’ curiosity about the world by familiarizing them with different countries’ flags. When interacting with World of Flags, users are shown a randomly generated flag from one of the world’s 193 countries and then can choose between 4 country options.',
+		overview: 'World of Flags is an app designed to help users teach themselves the flags of the world. Its underlying goal is to stimulate users’ curiosity about the world by familiarizing them with different countries’ flags. When interacting with World of Flags, users are shown a randomly generated flag from one of the world’s 193 countries and then can choose between 4 country options.',
 		focusAreas: ['React.js', 'Redux', 'Redux-thunk','SCSS (Sass)', 'Jest / Enzyme', 'Travis CI', 'Heroku'],
 		image: '../../assets/portfolio_projects/world-of-flags.png',
 		deployedLink: 'https://world-of-flags.herokuapp.com/',
