@@ -6,6 +6,27 @@
 	text-align: center;	
 }
 
+.portfolio-header-link-wrapper {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+	margin: 0 0 5rem;
+}
+
+.portfolio-header-link {
+    font-size: 1.5rem;
+    text-align: center;
+	color: #00A6ED;
+}
+
+.legacy-portfolio-header {
+	color: #0D2C54;
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin: 0 0 2rem;
+	text-align: center;	
+}
+
 .portfolio-instance {
 	display: grid;
   grid-template-areas:
