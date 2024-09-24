@@ -6,9 +6,6 @@ This is my personal/professional site for my software engineering portfolio.  It
 ## Deployed App
 [www.alexanderela.com](https://www.alexanderela.com/)
 
-## Getting Started
-This is a general guide to setting up a Recharge API development environment on your local machine.
-
 ### Dependencies
 * Angular
 * TypeScript
